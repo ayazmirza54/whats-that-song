@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-
+import walkman from "../src/assets/walkman.png"
 
 
 function App() {
@@ -56,7 +56,7 @@ function App() {
        <center>
         
          <h1>
-          <img What src="../public/walkman.png" height="50px" width="50px" />{" "}
+          <img What src={walkman} height="50px" width="50px" />{" "}
           What's That Song?
         </h1>
         <center>
